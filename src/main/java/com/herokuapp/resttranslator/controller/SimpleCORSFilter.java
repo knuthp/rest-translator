@@ -1,4 +1,4 @@
-package com.sandbox.controller;
+package com.herokuapp.resttranslator.controller;
 
 import java.io.IOException;
 

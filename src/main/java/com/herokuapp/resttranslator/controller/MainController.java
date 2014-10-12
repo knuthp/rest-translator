@@ -1,4 +1,4 @@
-package com.sandbox.controller;
+package com.herokuapp.resttranslator.controller;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
@@ -17,6 +17,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class MainController {

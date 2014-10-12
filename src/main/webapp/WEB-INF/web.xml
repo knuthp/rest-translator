@@ -24,7 +24,7 @@
 
 	<filter>
 		<filter-name>CORS</filter-name>
-		<filter-class>com.sandbox.controller.SimpleCORSFilter</filter-class>
+		<filter-class>com.herokuapp.resttranslator.controller.SimpleCORSFilter</filter-class>
 	</filter>
 	<filter-mapping>
         <filter-name>CORS</filter-name>

@@ -1,10 +1,12 @@
-package com.sandbox.controller;
+package com.herokuapp.resttranslator.controller;
 
 import static org.junit.Assert.*;
 
 import java.util.Map;
 
 import org.junit.Test;
+
+import com.herokuapp.resttranslator.controller.MainController;
 
 public class MainControllerTest {
 
@@ -24,7 +26,7 @@ public class MainControllerTest {
 		
 		String json = mainController.reisetider();
 		
-		assertEquals("xml", json);
+		assertTrue(json.startsWith("{\"reisetider\": {"));
 	}
 
 }
