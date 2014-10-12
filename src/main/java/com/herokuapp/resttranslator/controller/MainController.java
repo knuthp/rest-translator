@@ -50,7 +50,7 @@ public class MainController {
 	
 	
 	//http://www.yr.no/place/Norway/Oslo/Oslo/Lysaker/forecast.xml
-	@RequestMapping("/yr/place/{country}/{county}/{muncipal}/{place}/forecast.xml")
+	@RequestMapping("/yr/place/{country}/{county}/{muncipal}/{place}/forecast")
 	@ResponseBody
 	public String forecast(@PathVariable String country, @PathVariable String county, @PathVariable String muncipal, @PathVariable String place) {
 		String url = "http://www.yr.no/place/" + country + "/" + county + "/" + muncipal + "/" + place + "/forecast.xml";
