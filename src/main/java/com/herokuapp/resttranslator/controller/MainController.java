@@ -18,8 +18,6 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-
 @Controller
 public class MainController {
 	private static Log LOG = LogFactory.getLog(MainController.class);
